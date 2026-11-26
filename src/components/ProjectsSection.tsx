@@ -160,10 +160,9 @@ function ProjectCard({
               {/* Video Marker */}
               <span
                 data-marker="video"
-                className="pointer-events-none absolute top-4 left-4 z-30 inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] sm:text-xs font-mono font-bold tracking-wider uppercase bg-[#FF542B] text-[#080808] shadow-lg"
+                className="pointer-events-none absolute top-2 left-2 z-30 px-2 py-0.5 rounded text-[11px] font-normal tracking-wide text-zinc-400 bg-black/60 backdrop-blur-sm select-none"
               >
-                <span className="w-1.5 h-1.5 rounded-full bg-[#080808] animate-ping" />
-                VIDEO {parseInt(project.number, 10) + 1} · {project.category}
+                video {parseInt(project.number, 10) + 1}
               </span>
               <div className="absolute bottom-5 left-6 right-6 flex items-end justify-between text-left">
                 <div>

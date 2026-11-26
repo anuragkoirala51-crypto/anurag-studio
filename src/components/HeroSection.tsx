@@ -153,10 +153,9 @@ export function HeroSection({
                   {/* Marker for Video 1 */}
                   <span
                     data-marker="video"
-                    className="pointer-events-none absolute top-3 left-3 z-30 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] sm:text-[11px] font-mono font-bold tracking-wider uppercase bg-[#FF542B] text-[#080808] shadow-lg"
+                    className="pointer-events-none absolute top-2 left-2 z-30 px-2 py-0.5 rounded text-[11px] font-normal tracking-wide text-zinc-400 bg-black/60 backdrop-blur-sm select-none"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#080808] animate-ping" />
-                    VIDEO 1 · SHOWREEL
+                    video 1
                   </span>
 
                   <div className="absolute inset-0 flex items-center justify-center">

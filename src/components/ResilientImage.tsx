@@ -34,9 +34,8 @@ export function ResilientImage({
           {displayBadge && (
             <span
               data-marker="photo"
-              className="pointer-events-none absolute top-2.5 left-2.5 z-20 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] sm:text-[11px] font-mono font-bold tracking-wider uppercase bg-[#080808]/90 text-[#FF542B] border border-[#FF542B]/50 backdrop-blur-md shadow-md select-none"
+              className="pointer-events-none absolute top-2 left-2 z-20 px-2 py-0.5 rounded text-[11px] font-normal tracking-wide text-zinc-400 bg-black/60 backdrop-blur-sm select-none"
             >
-              <span className="w-1.5 h-1.5 rounded-full bg-[#FF542B] animate-pulse" />
               {displayBadge}
             </span>
           )}
@@ -54,9 +53,8 @@ export function ResilientImage({
         {displayBadge && (
           <span
             data-marker="photo"
-            className="pointer-events-none absolute top-2.5 left-2.5 z-20 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] sm:text-[11px] font-mono font-bold tracking-wider uppercase bg-[#080808]/90 text-[#FF542B] border border-[#FF542B]/50 backdrop-blur-md shadow-md select-none"
+            className="pointer-events-none absolute top-2 left-2 z-20 px-2 py-0.5 rounded text-[11px] font-normal tracking-wide text-zinc-400 bg-black/60 backdrop-blur-sm select-none"
           >
-            <span className="w-1.5 h-1.5 rounded-full bg-[#FF542B] animate-pulse" />
             {displayBadge}
           </span>
         )}
@@ -83,9 +81,8 @@ export function ResilientImage({
       {displayBadge && (
         <span
           data-marker="photo"
-          className="pointer-events-none absolute top-2.5 left-2.5 z-20 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] sm:text-[11px] font-mono font-bold tracking-wider uppercase bg-[#080808]/90 text-[#FF542B] border border-[#FF542B]/60 backdrop-blur-md shadow-md select-none"
+          className="pointer-events-none absolute top-2 left-2 z-20 px-2 py-0.5 rounded text-[11px] font-normal tracking-wide text-zinc-400 bg-black/60 backdrop-blur-sm select-none"
         >
-          <span className="w-1.5 h-1.5 rounded-full bg-[#FF542B] animate-pulse" />
           {displayBadge}
         </span>
       )}

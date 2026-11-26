@@ -48,10 +48,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-.hide-markers [data-marker] {
-  display: none !important;
-}
-
 /* Subtle 35mm film grain overlay */
 @keyframes filmGrainShift {
   0%, 100% {
