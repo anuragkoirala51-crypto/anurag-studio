@@ -152,6 +152,15 @@ export function ProjectDetailView({
 
             {/* Interactive Cinematic Video Preview Player */}
             <div className="relative w-full aspect-[16/9] rounded-[32px] sm:rounded-[40px] overflow-hidden border border-[#F5EBDD]/25 bg-[#0C0B0A] mb-10">
+              {/* Video Marker */}
+              <span
+                data-marker="video"
+                className="pointer-events-none absolute top-4 left-4 z-30 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-mono font-bold tracking-wider uppercase bg-[#FF542B] text-[#080808] shadow-lg"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-[#080808] animate-ping" />
+                VIDEO {parseInt(project.number, 10) + 1} · {project.title}
+              </span>
+
               {!showOutro ? (
                 <motion.div
                   key={`${project.id}-${activeFrameIdx}`}

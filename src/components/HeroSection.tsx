@@ -150,6 +150,15 @@ export function HeroSection({
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#080808]/90 via-[#080808]/20 to-transparent" />
 
+                  {/* Marker for Video 1 */}
+                  <span
+                    data-marker="video"
+                    className="pointer-events-none absolute top-3 left-3 z-30 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] sm:text-[11px] font-mono font-bold tracking-wider uppercase bg-[#FF542B] text-[#080808] shadow-lg"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#080808] animate-ping" />
+                    VIDEO 1 · SHOWREEL
+                  </span>
+
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="w-12 h-12 rounded-full bg-[#FF542B] text-[#080808] flex items-center justify-center transition-transform duration-200 group-hover:scale-110 shadow-lg">
                       <Play className="w-5 h-5 fill-current ml-0.5" />

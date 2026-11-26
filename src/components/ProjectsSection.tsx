@@ -157,6 +157,14 @@ function ProjectCard({
                 className="w-full h-full object-cover block transition-transform duration-700 ease-out group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#080808]/80 via-transparent to-transparent" />
+              {/* Video Marker */}
+              <span
+                data-marker="video"
+                className="pointer-events-none absolute top-4 left-4 z-30 inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] sm:text-xs font-mono font-bold tracking-wider uppercase bg-[#FF542B] text-[#080808] shadow-lg"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-[#080808] animate-ping" />
+                VIDEO {parseInt(project.number, 10) + 1} · {project.category}
+              </span>
               <div className="absolute bottom-5 left-6 right-6 flex items-end justify-between text-left">
                 <div>
                   <span className="block text-[11px] uppercase tracking-[0.24em] text-[#FF542B]">
@@ -167,7 +175,7 @@ function ProjectCard({
                   </span>
                 </div>
                 <span className="text-[11px] uppercase tracking-widest text-[#F5EBDD]/70 tabular-nums">
-                  IMG {primaryAsset.slot}
+                  {primaryAsset.badge}
                 </span>
               </div>
             </button>
