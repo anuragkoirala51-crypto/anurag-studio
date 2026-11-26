@@ -5,6 +5,14 @@
  * Updating a single entry here automatically updates every component that uses it.
  */
 
+import heroStage from '../assets/images/cinema_hero_stage_1795643752159.jpg';
+import btsCrew from '../assets/images/cinema_bts_crew_1795643752790.jpg';
+import narrativeStill from '../assets/images/film_still_narrative_1795643753617.jpg';
+import commercialStill from '../assets/images/film_still_commercial_1795643756725.jpg';
+import musicDocStill from '../assets/images/film_still_music_doc_1795643756129.jpg';
+import directorPortrait from '../assets/images/cinema_portrait_director_1795643754958.jpg';
+import journalFrame from '../assets/images/cinema_journal_frame_1795643757373.jpg';
+
 export interface StudioAsset {
   id: string;
   slot: string;
@@ -15,13 +23,13 @@ export interface StudioAsset {
 }
 
 const TEMP_IMAGES = {
-  heroStage: '/src/assets/images/cinema_hero_stage_1795643752159.jpg',
-  btsCrew: '/src/assets/images/cinema_bts_crew_1795643752790.jpg',
-  narrativeStill: '/src/assets/images/film_still_narrative_1795643753617.jpg',
-  commercialStill: '/src/assets/images/film_still_commercial_1795643756725.jpg',
-  musicDocStill: '/src/assets/images/film_still_music_doc_1795643756129.jpg',
-  directorPortrait: '/src/assets/images/cinema_portrait_director_1795643754958.jpg',
-  journalFrame: '/src/assets/images/cinema_journal_frame_1795643757373.jpg',
+  heroStage,
+  btsCrew,
+  narrativeStill,
+  commercialStill,
+  musicDocStill,
+  directorPortrait,
+  journalFrame,
 } as const;
 
 export const STUDIO_ASSETS = {
